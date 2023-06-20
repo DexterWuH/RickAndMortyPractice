@@ -37,5 +37,5 @@ private const val BASE_URL = "https://rickandmortyapi.com/api/"
 
     fun getRickAndMortyAPI(): RickAndMortyApi {
         return getRetrofit().create(RickAndMortyApi::class.java)
-    }
+    }git
 }
